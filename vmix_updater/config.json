@@ -1,0 +1,14 @@
+{
+  "ip": "10.13.24.27",
+  "porta": "8088",
+  "title": "PAINEL",
+  "text_1": "TextBlock1.Text",
+  "text_2": "TextBlock2.Text",
+  "text_3": "Ticker1.Text",
+  "USD-BRL": {"name":"ticker_1_name.Text", "value": "ticker_1_value.Text", "diff": "ticker_1_diff.Text", "perc": "ticker_1_perc.Text"},
+  "USD-EUR": {"name":"ticker_2_name.Text", "value": "ticker_2_value.Text", "diff": "ticker_2_diff.Text", "perc": "ticker_2_perc.Text"},
+  "USD-JPY": {"name":"ticker_3_name.Text", "value": "ticker_3_value.Text", "diff": "ticker_3_diff.Text", "perc": "ticker_3_perc.Text"},
+  "USD-CNY": {"name":"ticker_4_name.Text", "value": "ticker_4_value.Text", "diff": "ticker_4_diff.Text", "perc": "ticker_4_perc.Text"},
+  "USD-KRW": {"name":"ticker_5_name.Text", "value": "ticker_5_value.Text", "diff": "ticker_5_diff.Text", "perc": "ticker_5_perc.Text"},
+  "IBOV"   : {"name":"main_info_name.Text", "value": "main_info_value.Text", "diff": "main_info_diff.Text", "perc": "main_info_per.Text"}
+}
