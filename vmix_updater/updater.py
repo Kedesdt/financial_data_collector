@@ -180,7 +180,7 @@ class ApiUpdater(threading.Thread):
                                 self.config["IBOV"]["value"],
                                 f"{data["bolsa"]['IBOV']['price']:+.2f}",
                             )
-                            arrow = "↑" if data["bolsa"]["IBOV"]["price"] >= 0 else "↓"
+                            arrow = "↑" if data["bolsa"]["IBOV"]["change"] >= 0 else "↓"
                             send_phrase_directly(
                                 self.config["ip"],
                                 self.config["porta"],
